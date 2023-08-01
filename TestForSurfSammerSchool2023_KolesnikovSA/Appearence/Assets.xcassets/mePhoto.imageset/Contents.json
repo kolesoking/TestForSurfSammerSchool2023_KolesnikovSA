@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "21650887-1861-4CAD-891D-37A030BDE56C_1_201_a.heic",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

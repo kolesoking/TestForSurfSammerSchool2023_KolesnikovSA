@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SkillCollectionViewCell" customModule="TestForSurfSammerSchool2023_KolesnikovSA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="73"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="226" height="73"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGq-xf-sSc">
+                        <rect key="frame" x="29" y="26" width="168" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amU-8J-rey">
+                        <rect key="frame" x="202" y="29.5" width="14" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="6c5-Fe-uNs"/>
+                            <constraint firstAttribute="width" constant="14" id="nxT-ca-yeY"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="deliteAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="lQB-vM-q2g"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="amU-8J-rey" firstAttribute="leading" secondItem="eGq-xf-sSc" secondAttribute="trailing" constant="5" id="0lT-FS-1oa"/>
+                <constraint firstItem="eGq-xf-sSc" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Wm4-5T-OKm"/>
+                <constraint firstItem="eGq-xf-sSc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="fNj-Lq-zXD"/>
+                <constraint firstAttribute="trailing" secondItem="amU-8J-rey" secondAttribute="trailing" constant="10" id="okN-RY-GXy"/>
+                <constraint firstItem="amU-8J-rey" firstAttribute="centerY" secondItem="eGq-xf-sSc" secondAttribute="centerY" id="xl5-aA-flC"/>
+            </constraints>
+            <size key="customSize" width="226" height="73"/>
+            <connections>
+                <outlet property="deliteButton" destination="amU-8J-rey" id="WkL-y7-gVo"/>
+                <outlet property="skillLabel" destination="eGq-xf-sSc" id="EZt-pX-5sB"/>
+            </connections>
+            <point key="canvasLocation" x="178.2608695652174" y="128.23660714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>
